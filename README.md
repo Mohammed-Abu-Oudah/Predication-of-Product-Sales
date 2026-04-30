@@ -17,3 +17,9 @@ This is a Machine Learning project that is about predicting sales for a specific
 - And for relationships between numeric data, we used heatmaps, like this:
 <img width="686" height="589" alt="download" src="https://github.com/user-attachments/assets/2c48c139-71b5-425e-b1d9-2979f6d641a7" />
 
+** Training methods and results
+Two training methods were Used:
+1- Linear Regression: The results were lower than the next method
+2- Random Forest Regression: The results were better specially after Hyperparameters Tuning using the GirdSearchCV
+
+But over all the model performance was bad, that could be due to the fact that some features had to be removed or the need to process the outliers.
